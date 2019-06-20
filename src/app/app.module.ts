@@ -7,6 +7,8 @@ import { AboutComponent } from './about/about.component';
 import { LandingComponent } from './landing/landing.component';
 import { ContactComponent } from './contact/contact.component';
 import { CategoryComponent } from './category/category.component';
+import { BlogPostComponent } from './blog-post/blog-post.component';
+import { BlankComponent } from './blank/blank.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { CategoryComponent } from './category/category.component';
     AboutComponent,
     LandingComponent,
     ContactComponent,
-    CategoryComponent
+    CategoryComponent,
+    BlogPostComponent,
+    BlankComponent
   ],
   imports: [
     BrowserModule,
