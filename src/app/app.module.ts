@@ -3,10 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './_components/header/header.component';
+import { FooterComponent } from './_components/footer/footer.component';
+import { LandingComponent } from './_components/landing/landing.component';
+import { AboutComponent } from './_components/about/about.component';
+import { ContactComponent } from './_components/contact/contact.component';
+import { CategoryComponent } from './_components/category/category.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    LandingComponent,
+    AboutComponent,
+    ContactComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
