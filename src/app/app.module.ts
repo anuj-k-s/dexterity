@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { CategoryComponent } from './category/category.component';
 import { BlogPostComponent } from './blog-post/blog-post.component';
 import { BlankComponent } from './blank/blank.component';
+import { ReverseFunctionalityDirective } from './common/reverse-functionality.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BlankComponent } from './blank/blank.component';
     ContactComponent,
     CategoryComponent,
     BlogPostComponent,
-    BlankComponent
+    BlankComponent,
+    ReverseFunctionalityDirective
   ],
   imports: [
     BrowserModule,
