@@ -273,6 +273,15 @@ textarea.input {
 .nav-menu li.cat-4 a:after {
     background-color: #8d00ff;
 }
+.nav-menu li.cat-5 a:after {
+    background-color: aqua;
+}
+.nav-menu li.cat-6 a:after {
+    background-color: lightcoral;
+}
+.nav-menu li.cat-7 a:after {
+    background-color: lightseagreen;
+}
 .nav-menu li a:hover, .nav-menu li a:focus {
     background-color: transparent;
     text-decoration: none;
