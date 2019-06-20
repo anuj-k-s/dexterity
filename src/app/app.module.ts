@@ -3,24 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AboutComponent } from './about/about.component';
-import { LandingComponent } from './landing/landing.component';
-import { ContactComponent } from './contact/contact.component';
-import { CategoryComponent } from './category/category.component';
-import { BlogPostComponent } from './blog-post/blog-post.component';
-import { BlankComponent } from './blank/blank.component';
-import { ReverseFunctionalityDirective } from './common/reverse-functionality.directive';
+import { HeaderComponent } from './_components/header/header.component';
+import { FooterComponent } from './_components/footer/footer.component';
+import { LandingComponent } from './_components/landing/landing.component';
+import { AboutComponent } from './_components/about/about.component';
+import { ContactComponent } from './_components/contact/contact.component';
+import { CategoryComponent } from './_components/category/category.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
+    HeaderComponent,
+    FooterComponent,
     LandingComponent,
+    AboutComponent,
     ContactComponent,
-    CategoryComponent,
-    BlogPostComponent,
-    BlankComponent,
-    ReverseFunctionalityDirective
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
