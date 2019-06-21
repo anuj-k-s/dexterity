@@ -957,3 +957,55 @@ textarea.input {
         display:none;
    }
 }
+
+
+
+/* dark theme css */
+
+body {
+    background: #111;
+    color: #999;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+    font-weight: 400;
+}
+#nav-fixed {
+    background: #333;
+    box-shadow: none;
+}
+.nav-menu li a {
+    color: #ccc;
+    box-shadow: none;
+    font-weight: 400;
+    border: none !important;
+    padding: 20px 15px;
+}
+.nav-menu li a::after {
+    height: 1px;
+}
+.nav-btns > button {
+    padding: 20px 15px;
+    color: #ccc;
+}
+.nav-logo .logo {
+     line-height: normal;
+     padding: 10px 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #02cea3;
+}
+.post .post-title a {
+    color: #aaaaaa;
+}
+.post .post-title a:hover, .post .post-title a:focus {
+	color: #ffffff;
+}
+.section.section-grey {
+	background-color: transparent;
+	border-bottom: 1px solid #999;
+	border-top: 1px solid #999;
+}
+.category-widget ul li > a {
+	color: #ccc;
+}
