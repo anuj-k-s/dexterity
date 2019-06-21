@@ -982,7 +982,7 @@ a, a:hover, a:focus {
     padding: 20px 15px;
 }
 .nav-menu li a::after {
-    height: 1px;
+    height: 2px;
 }
 .nav-btns > button {
     padding: 20px 15px;
@@ -1008,4 +1008,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .category-widget ul li > a {
 	color: #ccc;
+}
+#cat-mobile .category-widget ul li > a {
+	color: #333;
 }
