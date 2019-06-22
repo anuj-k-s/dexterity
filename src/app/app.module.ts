@@ -1,3 +1,4 @@
+import { ReverseFunctionalityDirective } from './common/reverse-functionality.directive';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -24,7 +25,7 @@ import { CategoryComponent } from './_components/category/category.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ReverseFunctionalityDirective],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
