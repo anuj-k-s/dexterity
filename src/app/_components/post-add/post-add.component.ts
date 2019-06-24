@@ -10,21 +10,20 @@ import { PostService } from '../post.service';
   styleUrls: ['./post-add.component.css']
 })
 export class PostAddComponent implements OnInit {
-  // public posts: Posts = new Posts();
+  public posts: Array<Post> = new Array<Post>();
   constructor(private postService: PostService) {
-    this.postService.myFokos.subscribe(data=>{
-      console.log(data);
-    })
   }
 
 
   ngOnInit() {
+    this.postService.getPosts();
+    this.getPosts();
   }
 
 
   public getPosts() {
-
-    
+    this.posts = this.postService.getDatafromFirebase();
+    console.log(this.posts);
   }
 
 

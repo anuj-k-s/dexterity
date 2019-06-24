@@ -14,7 +14,6 @@ import { ContactComponent } from './_components/contact/contact.component';
 import { CategoryComponent } from './_components/category/category.component';
 import { environment } from 'src/environments/environment.prod';
 import { PostAddComponent } from './_components/post-add/post-add.component';
-import { PostService } from './_components/post.service';
 
 @NgModule({
   declarations: [
@@ -34,7 +33,7 @@ import { PostService } from './_components/post.service';
     AngularFireStorageModule,
     AngularFireDatabaseModule
   ],
-  providers: [ReverseFunctionalityDirective, PostService],
+  providers: [ReverseFunctionalityDirective],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

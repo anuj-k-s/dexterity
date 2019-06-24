@@ -9,16 +9,6 @@ import { Observable } from 'rxjs';
 })
 
 export class AppComponent {
-  myFokos: Observable<any[]>;
-  constructor(public db: AngularFireDatabase, public postService: PostService) {
-    this.myFokos = db.list('posts').snapshotChanges();
-      
-    const leadsRef = db.database.ref('posts');
-    leadsRef.on('value', function (snapshot) {
-      snapshot.forEach(function (childSnapshot) {
-        debugger;
-        postService.populatePosts(childSnapshot);
-      });
-    });
-  }
+ constructor(){
+ }
 }
